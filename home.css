@@ -1,0 +1,152 @@
+
+.logo{
+    margin-left: 0px;
+    width:150px;
+    cursor:pointer;
+    padding: 0px;
+    
+}
+body{   
+    background-image:url(cloud.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navigation_bar{
+    display: flex;
+    gap:40px;
+    padding:20px 15px;
+    margin-top: 0px;
+}
+.sections{
+    padding-top: 15px;
+    gap:50px;
+    margin-left: 750px;
+    font-size: 20px;
+    display: flex;   
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+a {
+    color: inherit; 
+    text-decoration: inherit;
+}
+
+.introduction{
+    margin-top: 50px;
+}
+.intro{
+   
+    display: flex;
+}
+h1{
+    font-size: 70px;
+}
+.profile{
+    width: 400px;
+    height: 350px;
+    border-radius: 50%;
+    border-style: solid;
+    margin-left: 100px;
+}
+.about_me{
+    margin-top: 100px;
+}
+#about{
+    font-size: 50px;
+}
+.free{
+    margin-top: 70px;
+    font-size: 65px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_bikas{
+    width:500px;
+    border-radius: 30px;
+}
+.about_section{
+    display: flex;
+    margin-right: 70px;
+    background-color: rgba(0, 0, 0, 0.495);
+    border-radius: 30px;
+    padding:10px 20px;
+    color:white;
+}
+.my_para{
+    font-size: 20px; 
+    padding-top: 50px;
+    text-align: justify;
+    line-height: 30px;
+    padding-left: 50px;
+}
+.short{
+    font-size: 20px; 
+    padding-top: 50px;
+    text-align: justify;
+    line-height: 30px;
+    padding-left: 50px;
+    margin-top:30px;
+}
+.my_skills{
+    margin-top:100px;
+}
+#skills{
+    font-size: 50px;
+}
+.sk{
+    width:100px;
+    height:80px;
+}
+.skil{
+    display: flex;
+    gap:200px;
+}
+#contact{
+    font-size: 50px;
+}
+.my_contact{
+    margin-top:100px;
+}
+.butt{
+    padding:6px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top:30px;
+    color:white;
+    background-color: black;
+}
+.butt:hover{
+    background-color: white;
+    color: black;
+}
+input{
+    padding:20px 30px;
+    border-radius: 25px;
+    border-color: antiquewhite;
+    border-style: solid;
+    margin-top: 20px;
+  
+}
+textarea{
+    padding:10px 30px;
+    border-radius: 25px;
+    border-color: antiquewhite;
+    border-style: solid;
+    margin-top: 20px;
+}
+.social{
+    margin-top: 60px;
+}
+.i{
+    width:900px;
+}
+.c{
+    padding:7px 15px;
+    border-radius: 20px;
+}
+.c:hover{
+    background-color: rgba(123, 189, 247, 0.495);
+}
