@@ -136,6 +136,9 @@ textarea{
     border-color: antiquewhite;
     border-style: solid;
     margin-top: 20px;
+    height: 250px;
+    width: 300px;
+    
 }
 .social{
     margin-top: 60px;
@@ -149,4 +152,38 @@ textarea{
 }
 .c:hover{
     background-color: rgba(123, 189, 247, 0.495);
+}
+label input{
+    width: 100%;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+    
+}
+.a1{
+width: 300px;
+
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 4px solid darkgrey;
+    font-size: 20px;
+    font: bold;
+    background-color: lightgoldenrodyellow;
+
+}
+.sugam{
+    display: flex;
+    justify-content: center;
 }
